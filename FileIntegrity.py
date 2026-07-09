@@ -31,6 +31,3 @@ class FileIntegrity:
                     break
                 hasher.update(chunk)
         return hasher.hexdigest()
-if __name__ == "__main__":
-    file_hash = FileIntegrity()
-    file_hash.compare_hash("ladaniela","new directory/Images/Screenshot 2026-07-07 222653.png")
